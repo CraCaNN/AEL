@@ -7,7 +7,7 @@ AEL can log Temperature, Humidity, Pressure, Light, UVA, UVB, UV Index and time 
 
 AEL will log a datapoint roughly every 10 seconds. However, due to the way I have programmed this it will vary (around 1 second over a minute) but timestamps are next to each logged datapoint.
 
-Time is found using NTP through a WiFi connection. WiFi can be configured through arduino_secrets.h.
+Time is found using NTP through a WiFi connection. WiFi can be configured through wifiDetails.h.
 
 AEL can also be accessed though a browser by going to the device IP address.
 
