@@ -39,18 +39,12 @@ Adafruit SSD1306 -
 Writing to the display
 
 ## Known Issues
-I created this program and thought it was cool enough to upload to github so there will be bugs but I may improve it if i have spare time
+I created this program and thought it was cool enough to upload to github so there will be bugs but I may improve it if I have spare time
 
 ### Unsolvable Issues
 For some reason if the humidity sensor is brought into the sun the sensor readings go negative. This is a hardware issue that I have found other people having as well. 
 I may code the sensor to read a minimum value of 0 that way any graphs created later don't look like garbage.
 
 ### Solvable Issues
-
-If you do not have a WiFi connection the program will not start. This is because NTP requires WiFi to get time and also update occasionally. If you loose connection after starting the program, it will freeze trying to update time. 
-
-If you are missing the OLED screen the program will not start. I will try and fix this at some point.
-
-If you are missing an SD card the program will not start. I may change it to act more like a weather station so an SD card is not required to start.
 
 If you have the newer MKR ENV sheild this does not have the UV sensor it will probably break something or you will just get blank datapoints for those sensors. I can't test this.
